@@ -2,15 +2,15 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
+	API_ID = int(os.environ.get("9411723"))
+	API_HASH = os.environ.get("30fa091455c0548d77dc254f0bb705b0")https://github.com/Manojthe/filestore/blob/main/configs.py
+	BOT_TOKEN = os.environ.get("6195871057:AAFf70eQOvX86d1yd2iJGIHdeXrsroTMyqc")
+	BOT_USERNAME = os.environ.get("Filestoreogbot")
+	DB_CHANNEL = int(os.environ.get("-1001818063560"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "875770605"))
+	DATABASE_URL = os.environ.get("mongodb+srv://aman:aman@cluster0.chnpche.mongodb.net/?retryWrites=true&w=majority")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001631972698")
+	LOG_CHANNEL = os.environ.get("-1001818063560")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
