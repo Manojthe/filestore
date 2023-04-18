@@ -3,7 +3,7 @@ import os
 
 class Config(object):
 	API_ID = int(os.environ.get("9411723"))
-	API_HASH = os.environ.get("30fa091455c0548d77dc254f0bb705b0")https://github.com/Manojthe/filestore/blob/main/configs.py
+	API_HASH = os.environ.get("30fa091455c0548d77dc254f0bb705b0")
 	BOT_TOKEN = os.environ.get("6195871057:AAFf70eQOvX86d1yd2iJGIHdeXrsroTMyqc")
 	BOT_USERNAME = os.environ.get("Filestoreogbot")
 	DB_CHANNEL = int(os.environ.get("-1001818063560"))
